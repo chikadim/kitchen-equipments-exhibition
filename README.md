@@ -76,7 +76,7 @@ I used figma to create the wireframes of the website.
 - __Images__
   - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
 
-![Mockup web version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-web-version.png)
+![Mockup web version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockupwebversion.png)
 
 [Back to table of content](#table-of-content)
 
