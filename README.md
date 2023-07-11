@@ -92,11 +92,41 @@ This website consists of 4 pages. They are accessible from navigation menu and a
 ### Existing Features
 - __Home page__
   - The navigation bar
-    * The navigation bar is featured in all four pages and is fully responsive. It includes links to Logo, For exhibitors, Contact us, Home page and Attendees page.
+    * The navigation bar is featured in all four pages and is fully responsive. It includes links to Logo, For exhibitors, Contact us, Home page and Attendees page. This helps the user to navigate easily to pages that are of interest to them.
+
+  - The Date, Venue and Time section
+    * This brief section quickly present the most important information to a user. The Date, Venue and Time for the exhibition.
 
   - Expected Attendees section
-    * This section contains list of portfolios of the expected exhibitors and expected visitors. There are two images complementing the both lists.
-     
+    * This section contains list of portfolios of the expected exhibitors and expected visitors. There are two images complementing the both lists. The user will immediately get familiarized with the professionals that are expected to attend the exhibition.
+  
+  - Sponsors section
+    * In this section, a user can find just a few of our top sponsors. This is likely to boost the confidence of the user who is attending.
+
+  - The footer section
+    * Here, a user can find the menu for easy navigation. Also there is the Host social media handles which a user can also connect to for more information and socialize.
+
+
+- __For exhibitors page__
+  - Exhibitors read up section
+    * This contains three different topic concerning Kitchen. The topics are just to keep the user in the mood and hopeful of a wonderful exhibition experience.
+
+  - Send a message form
+    * Through this form a user can reach us to make enquiry or offer suggestions. It helps the user to submit her concerns if any.
+
+- __Contact us page__
+  - Customer service section
+    * On this page a user can make an immediate conatact by calling or texting some of our customer service staff who are available 24/7.
+  - Enquiry form
+    * Through this form a user can reach us to make enquiry or offer suggestions.
+
+- __Attendees page__
+  - Attendees list
+    * On this page a user can make an immediate conatact by calling or texting some of our customer service staff who are available 24/7.
+  - Enquiry form
+    * Through this form a user can reach us to make enquiry or offer suggestions.
+  
+
 
 
 
