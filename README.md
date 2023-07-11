@@ -90,6 +90,13 @@ ___
 This website consists of 4 pages. They are accessible from navigation menu and also from the footer.
 
 ### Existing Features
-- __Navigation Bar__
-  - The navigation bar is featured in all four pages and is fully responsive. It includes links to Logo, For exhibitors, Contact us, Home page and Attendees page.
-  - Except the Home page, the links all open on a new tab
+- __Home page__
+  - The navigation bar
+    * The navigation bar is featured in all four pages and is fully responsive. It includes links to Logo, For exhibitors, Contact us, Home page and Attendees page.
+
+  - Expected Attendees section
+    * This section contains list of portfolios of the expected exhibitors and expected visitors. There are two images complementing the both lists.
+     
+
+
+
