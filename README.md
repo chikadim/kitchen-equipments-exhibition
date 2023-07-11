@@ -7,12 +7,11 @@ This website is a project that is built with love to provide its users easy acce
 ## Table of Content
 
 - [UX](#ux)
-    - [Website owner goals](#website-owner-goals)
     - [User goals](#user-goals)
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
-    - [Surface](#surface)
+    - [Mockup](#mockup)
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
@@ -31,8 +30,8 @@ This website is a project that is built with love to provide its users easy acce
 
 
 ### User goals
-- __Website owner goals__
 
+- __Website owner goals__
   - We built this website to provide the users an easy way to register for the exhibition.
   - It is a user-first project that brings latest information and technology about kitchen equipment and utensils to them.
   - During the exhibition the registered user would get to meet business minded people, tech experts, Architects and Engineers.
@@ -44,12 +43,43 @@ This website is a project that is built with love to provide its users easy acce
 
 
 ### User stories
-### User stories as a business owner
-* I would like to register on the website as an exhibitor to showcase our product to the world.
-* I am hoping to build business relationships with other Companies who manufacture and supply Kitchen equipments. 
-* My expertise and knowledge in this field will be offered to our old and new customers to make good decisions when dealing with Kitchen Equipments.
 
-### User stories as a designer
-* I would like to register on the website as a visitor to acquire ideas and knowledge about latest innovations in the industry.
-* It will not be a bad idea to give out technical advise to manufacturers of this equipments to improve the standard of their products.
-* After registering on this website, i would like to make it known to my clients so that they can register too and have plenty of choices while making purchases for their Kitchen.
+- __User stories as a business owner__
+  - I would like to register on the website as an exhibitor to showcase our product to the world.
+  - I am hoping to build business relationships with other Companies who manufacture and supply Kitchen equipments. 
+  - My expertise and knowledge in this field will be offered to our old and new customers to make good decisions when dealing with Kitchen Equipments.
+
+- __User stories as a designer__
+  - I would like to register on the website as a visitor to acquire ideas and knowledge about latest innovations in the industry.
+  - It will not be a bad idea to give out technical advise to manufacturers of this equipments to improve the standard of their products.
+  - After registering on this website, i would like to make it known to my clients so that they can register too and have plenty of choices while making purchases for their Kitchen.
+
+
+### Structure of the website
+
+This website is structured to be user-friendly, easy to navigate and remanins well positioned on all sizes of devices. The overall performance of the website is fantastic and smooth. There are beautiful transitions between different parts of the website wether on mobile or desktop or tablet.
+
+
+### Wireframes
+
+I used figma to create the wireframes of the website.
+
+- [Wireframes](md_images/wireframes-web-version.png)
+- [Wireframes](md_images/wireframes-mobile-version.png)
+
+### Mockup
+
+- __Colors__
+  - background color: #ffffff
+  - font color: #000000
+
+- __Fonts__
+  -
+
+- __Images__
+  - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
+
+[Back to table of content](#table-of-content)
+
+___
+# Features
