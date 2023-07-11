@@ -64,8 +64,8 @@ This website is structured to be user-friendly, easy to navigate and remanins we
 
 I used figma to create the wireframes of the website.
 
-- [Wireframes](md_images/wireframes-web-version.png)
-- [Wireframes](md_images/wireframes-mobile-version.png)
+![Wireframes web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/wireframes-web-version.png)
+![Wireframes mobile version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/wireframes-mobile-version.png)
 
 ### Mockup
 
@@ -82,4 +82,11 @@ I used figma to create the wireframes of the website.
 [Back to table of content](#table-of-content)
 
 ___
-# Features
+## Features
+
+This website consists of 4 pages. They are accessible from navigation menu and also from the footer.
+
+### Existing Features
+- __Navigation Bar__
+  - The navigation bar is featured in all four pages and is fully responsive. It includes links to Logo, For exhibitors, Contact us, Home page and Attendees page.
+  - Except the Home page, the links all open on a new tab
