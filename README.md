@@ -77,10 +77,6 @@ I used figma to create the wireframes of the website.
   - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
 
 ![Mockup web version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-web-version.png)
-![Mockup mobile version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version.png)
-![Mockup mobile version2](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version-two.png)
-![Mockup mobile version3](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version-three.png)
-![Mockup mobile version4](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version-four.png)
 
 [Back to table of content](#table-of-content)
 
