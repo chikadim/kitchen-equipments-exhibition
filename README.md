@@ -78,9 +78,9 @@ I used figma to create the wireframes of the website.
 
 ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-web-version.png)
 ![Mockup mobile version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version.png)
-![Mockup mobile version2](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version2.png)
-![Mockup mobile version3](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version3.png)
-![Mockup mobile version4](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version4.png)
+![Mockup mobile version2](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version-two.png)
+![Mockup mobile version3](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version-three.png)
+![Mockup mobile version4](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version-four.png)
 
 [Back to table of content](#table-of-content)
 
