@@ -69,13 +69,6 @@ I used figma to create the wireframes of the website.
 
 ### Mockup
 
-- __Colors__
-  - background color: #ffffff
-  - font color: #000000
-
-- __Images__
-  - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
-
 ![Mockup web version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockupwebversion.png)
 
 [Back to table of content](#table-of-content)
