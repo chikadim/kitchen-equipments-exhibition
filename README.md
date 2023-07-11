@@ -69,7 +69,18 @@ I used figma to create the wireframes of the website.
 
 ### Mockup
 
-![Mockup web version](https://github.com/chikadim/kitchen-equipments-exhibition/md_images/mockupwebversion.png)
+- __Colors__
+  - background color: #ffffff
+  - font color: #000000
+
+- __Images__
+  - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
+
+![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockupwebversion.png)
+![Mockup mobile version](https://chikadim.github.io/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version.png)
+![Mockup mobile version2](https://chikadim.github.io/chikadim/kitchen-equipments-exhibition/md_images/mockup-mobile-version-two.png)
+![Mockup mobile version3](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version-three.png)
+![Mockup mobile version4](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup-mobile-version-four.png)
 
 [Back to table of content](#table-of-content)
 
