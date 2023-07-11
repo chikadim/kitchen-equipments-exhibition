@@ -74,7 +74,7 @@ I used figma to create the wireframes of the website.
   - font color: #000000
 
 - __Fonts__
-  -
+  - As a font
 
 - __Images__
   - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
