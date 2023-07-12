@@ -105,7 +105,7 @@ header div {
     text-align: center;
     padding: 100px 0;
     background-color: #f6f6f6;
-    border-top: 4px solid greenyellow;
+    border-top: 4px solid #48ff00;
 }
 
 #why-not div {
@@ -200,11 +200,51 @@ header div {
     justify-content: space-between;
     color: #fff;
     background-color: #1e1e1e;
+    padding: 100px 88.8594px;
 }
 
-.our-social-media-links p {
+#usermap li {
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#usermap a:hover {
+    color: #828282;
+    border-bottom: 1px solid #48ff00;
+}
+
+#usermap li:nth-child(2){
+    padding: 0px 35px;
+}
+
+#social-media-links {
     text-align: center;
 }
+
+#social-media-links:hover {
+    color:#48ff00;
+}
+
+#social-media-links div {
+    text-align: center;
+}
+
+#social-media-links p:first-child {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#social-media-logos i {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#social-media-logos :nth-child(2) {
+    margin: 0 29px;
+}
+
 
 
 
