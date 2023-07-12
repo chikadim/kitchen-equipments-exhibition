@@ -223,7 +223,7 @@ header div {
     text-align: center;
 }
 
-#social-media-links:hover {
+#social-media-links div:first-child:hover {
     color:#48ff00;
 }
 
