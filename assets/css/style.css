@@ -26,6 +26,10 @@ header div {
     color: #3e3e3e;
 }
 
+#logo:hover {
+    color:#48ff00;
+}
+
 #call-to-action {
     margin-left: 5%;
 }
@@ -46,6 +50,11 @@ header div {
     color: #000;
 }
 
+#menu li a:hover {
+    color:#828282;
+    border-bottom : 1px solid #48ff00;
+}
+
 #logo, #call-to-action, #menu{
     line-height: 75px;
 }
@@ -59,6 +68,11 @@ header div {
     border: 1px solid #000;
     padding: 6px 30px;
     font-size: 12px;
+}
+
+#call-to-action li a:hover {
+    background-color: #3e3e3e;
+    color: #fff;
 }
 
 #hero-outer {
