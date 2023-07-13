@@ -63,6 +63,10 @@ body {
     float: left;
 }
 
+header {
+    width: 100%;
+}
+
 #menu {
     float: right;
     list-style-type: none;
@@ -196,6 +200,8 @@ body {
     margin: 200px 0;
 }
 
+/* some sponsors section start */
+
 #some-sponsors {
     background-color: #3e3e3e;
 }
@@ -230,16 +236,13 @@ body {
     padding: 10px 0px 15px 0px;
 }
 
+/* some sponsors section start */
+
 .sub-heading-color h3 {
     background-color: #fff;
     color: #3e3e3e;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
- }
 
 .footer-inner {
     display: flex;
@@ -479,9 +482,106 @@ body {
 
 /* contact us pages starts here */
 
+#page-heading {
+    clear: left;
+    background-color: #f6f6f6;
+}
+
+#page-heading {
+    color: #1e1e1e;
+    padding: 50px 0 10px 7%;
+    font-weight: 600;
+}
+
+#contact-us-info {
+    background-color: #3e3e3e;
+}
+
+.contact-us-info-image {
+    background: url('../images/male-avatar.png') no-repeat center center;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#contact-us-info-inner {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+#contact-us-info-inner div {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+#contact-us-info-inner div p { 
+    font-family: 'Laila', sans-serif;
+    font-size: 12px;
+}
+
+#contact-us-info-inner h4 {
+    padding: 10px 0px 15px 0px;
+}
+
+
+#form-section h4{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+                       
+.wrapper {
+    padding: 60px 0;
+}
 
 
 
+label,
+input,
+textarea,
+button {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+form {
+    width: 25em;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+form div {
+    margin-top: 1rem;
+}
+
+label {
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+input,
+textarea {
+    padding: 0.4rem;
+    width: 100%;
+    border: 1px solid;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    width: 100%;
+}
+
+button:hover,
+button:focus {
+    background-color: #1e1e1e;
+}
 
 
 
