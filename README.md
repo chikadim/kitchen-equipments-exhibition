@@ -148,17 +148,17 @@ This website consists of 4 pages. They are accessible from navigation menu and a
 - __HTML__
   - 1. Error found on index page
   When i did a test using W3C validator, i found the below errors and i got them fixed.
-   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/w3c-error.png)
+   ![Error 1](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/w3c-error.png)
 
    - 1. Error fixed
   Error fixed as shown below
-   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/fixed-error-index.png)
+   ![Error 1 fixed](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/fixed-error-index.png)
 
    - 2. Error found on index page while debugging on google chrome
-   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error.png)
+   ![Error 2](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error.png)
 
    - 2. Error fixedd
-   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error-fixed.png)
+   ![Error 2 fixed](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error-fixed.png)
 
 
 ## Deployment
