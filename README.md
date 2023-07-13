@@ -16,10 +16,9 @@ This website is a project that is built with love to provide its users easy acce
     - [Mockup](#mockup)
 - [Features](#features)
 - [Testing](#testing)
-    - [Functionality testing](#functionality-testing)
+    - [Validator testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
     - [Code Validation](#code-validation)
-    - [User stories testing](#user-stories-testing)
     - [Issues found durring site development](#issues-found-durring-site-development)
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
@@ -147,8 +146,12 @@ This website consists of 4 pages. They are accessible from navigation menu and a
 
     ## Testing
 
-    ### Functionality testing
-    I used google chrome and mozilla for testing the responsiveness of the site throughout development stage.
+    ### Validator testing
+- __HTML__
+  - 1. Error found on index page
+  When i did a test using W3C validator, i found the below errors and i got them fixed.
+   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/w3c-error.png)
+
 
 
 

@@ -136,6 +136,15 @@ header {
     letter-spacing: 3px;
 }
 
+#hero-text h4 {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 150%;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
 #venue-date-time {
     background-color:#3e3e3e;
     display: flex;
@@ -238,7 +247,7 @@ header {
 
 /* some sponsors section start */
 
-.sub-heading-color h3 {
+.sponsors-sub-heading h3 {
     background-color: #fff;
     color: #3e3e3e;
 }
