@@ -247,9 +247,10 @@ header {
 
 /* some sponsors section start */
 
-.sponsors-sub-heading h3 {
-    background-color: #fff;
-    color: #3e3e3e;
+#sponsors-sub-heading h3 {
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: 50px 0 0 50px;
 }
 
 
