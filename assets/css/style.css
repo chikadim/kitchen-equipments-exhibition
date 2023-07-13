@@ -294,187 +294,6 @@ header {
     margin: 0 29px;
 }
 
-
-
-/* Media Queries */
-@media screen and (max-width: 320px) {
-    #top-bar {
-        display: block;
-    }
-
-    #logo {
-        float: none;
-        position: absolute;
-        top: 11%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0 0px 0 0%;
-        z-index: 1;
-    }
-
-    #logo h1 {
-        text-align: center;
-        font-size: 50px;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    #call-to-action {
-        line-height: 75px;
-        position: absolute;
-        top: 35%;
-        z-index: 1;
-        color: #fff;
-    }
-
-    #call-to-action li {
-        padding: 0 0px;
-    }
-
-    #call-to-action li a {
-        border: 1px solid #fff;
-        padding: 6px 30px;
-        font-size: 12px;
-    }
-
-    #hero-outer {
-        height: 400px;
-    }
-    
-    #hero-image {
-        height: 400px;
-    }
-    
-    #hero-text {
-        position: absolute;
-        background-color: #3e3e3e;
-        padding: 20px 20px 100px 0%;
-        top: 30%;
-        
-    }
-    
-    #hero-text p {
-        color: #fff;
-        font-size: 120%;
-        font-weight: 900;
-        line-height: 20px;
-        text-align: center;
-    }
-
-    #venue-date-time {
-        background-color:#3e3e3e;
-        display: flex;
-        padding: 5px 5px;
-        justify-content:space-between;
-    }
-
-    #venue-date-time div {
-        padding: 5px 5px;
-        font-size: 10px;
-    }
-    
-    #why-not div {
-        font-size: 14px;
-        padding: 20px 30px;
-    }
-
-    #sub-heading {
-        margin-left: 0px;
-        padding-right: 20px;
-    }
-
-    #sub-heading h3{
-        font-size: 16px;
-    }
-    
-    .attendees-section-style {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 30px;
-    }
-    
-    .attendees-section-style h3 {
-        margin-bottom: 10px;
-    }
-    
-    .attendees-section-style ul li {
-        font-size: 14px;
-    }
-    
-    #expected-exhibitors-image {
-        height: 200px;
-        width: 200px;
-        margin-top: 20px;
-    }
-
-    #expected-visitors-image {
-        height: 200px;
-        width: 200px;
-        margin-top: 20px;
-    }
-
-    #expected-visitors {
-        margin: 200px 0;
-    }
-
-    #some-sponsors {
-        background-color: #3e3e3e;
-    }
-    
-    #some-sponsors-inner {
-        display: flex;
-        flex-direction: column;
-        padding: 100px 0;
-    }
-
-    #some-sponsors-inner div{
-        padding-bottom: 50px
-        
-    }
-
-    .footer-inner {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        background-color: #1e1e1e;
-        padding: 50px 20px;
-    }
-
-    #usermap {
-        padding-bottom: 70px;
-    }
-    
-    #usermap li {
-        float: none;
-        text-align: center;
-    }
-    
-    #usermap li:nth-child(2){
-        padding: 10px 0px;
-    }
-
-}
-
-
-@media screen and (max-width: 768px) {
-    .attendees-section-style {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .attendees-section-style ul li {
-        font-size: 16px;
-    }
-
-    #expected-visitors h3 {
-        padding-top: 50px;
-    }
-
-}
-
 /* home page ends here */
 
 
@@ -642,11 +461,188 @@ button:focus {
     border-radius: 50%;
 }
 
-
-
 /* attendees ends here */
 
 
 
 
+/* Media Queries */
+@media screen and (max-width: 320px) {
+    #top-bar {
+        display: block;
+    }
+
+    #logo {
+        float: none;
+        position: absolute;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 70px 0px 0 0%;
+        z-index: 1;
+    }
+
+    #logo h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #call-to-action {
+        line-height: 75px;
+        position: absolute;
+        top: 280px;
+        z-index: 1;
+        color: #fff;
+    }
+
+    #call-to-action li {
+        padding: 0 0px;
+    }
+
+    #call-to-action li a {
+        border: 1px solid #fff;
+        padding: 6px 30px;
+        font-size: 12px;
+    }
+
+    #hero-outer {
+        height: 400px;
+    }
+    
+    #hero-image {
+        height: 400px;
+    }
+    
+    #hero-text {
+        position: absolute;
+        background-color: #3e3e3e;
+        padding: 20px 20px 100px 0%;
+        top: 30%;
+        
+    }
+    
+    #hero-text p {
+        color: #fff;
+        font-size: 120%;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #venue-date-time {
+        background-color:#3e3e3e;
+        display: flex;
+        padding: 5px 5px;
+        justify-content:space-between;
+    }
+
+    #venue-date-time div {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    
+    #why-not div {
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+
+    #sub-heading {
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+
+    #sub-heading h3{
+        font-size: 16px;
+    }
+    
+    .attendees-section-style {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+    
+    .attendees-section-style h3 {
+        margin-bottom: 10px;
+    }
+    
+    .attendees-section-style ul li {
+        font-size: 14px;
+    }
+    
+    #expected-exhibitors-image {
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    #expected-visitors-image {
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    #expected-visitors {
+        margin: 200px 0;
+    }
+
+    #some-sponsors {
+        background-color: #3e3e3e;
+    }
+    
+    #some-sponsors-inner {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    #some-sponsors-inner div{
+        padding-bottom: 50px
+        
+    }
+
+    .footer-inner {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background-color: #1e1e1e;
+        padding: 50px 20px;
+    }
+
+    #usermap {
+        padding-bottom: 70px;
+    }
+    
+    #usermap li {
+        float: none;
+        text-align: center;
+    }
+    
+    #usermap li:nth-child(2){
+        padding: 10px 0px;
+    }
+
+}
+
+/* media queries for max-width: 768px */
+
+
+@media screen and (max-width: 768px) {
+    .attendees-section-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .attendees-section-style ul li {
+        font-size: 16px;
+    }
+
+    #expected-visitors h3 {
+        padding-top: 50px;
+    }
+}
 
