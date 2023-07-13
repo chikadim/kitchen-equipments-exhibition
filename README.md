@@ -17,8 +17,6 @@ This website is a project that is built with love to provide its users easy acce
 - [Features](#features)
 - [Testing](#testing)
     - [Validator testing](#functionality-testing)
-    - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
     - [Issues found durring site development](#issues-found-durring-site-development)
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
@@ -144,18 +142,56 @@ This website consists of 4 pages. They are accessible from navigation menu and a
     ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/attendee-page.png)
 
 
-    ## Testing
+## Testing
 
-    ### Validator testing
+### Validator testing
 - __HTML__
   - 1. Error found on index page
   When i did a test using W3C validator, i found the below errors and i got them fixed.
    ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/w3c-error.png)
 
+   - 1. Error fixed
+  Error fixed as shown below
+   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/fixed-error-index.png)
+
+   - 2. Error found on index page while debugging on google chrome
+   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error.png)
+
+   - 2. Error fixed
+   ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error-fixed.png)
 
 
+## Deployment
 
-  
+The project was deployed on GitHub Pages. I used vscode as a development environment where I commited all changes to git version control system.
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy 
+* select `Settings` and find GitHub Pages section at the very bottom of the page
+* from source select `none` and then my branch name.
+* click `save` and page was deployed after auto-refresh after it must have published.
+
+[Back to Table of contents](#table-of-contents)
+___
+
+  ## Credits
+
+* To complete this project I used Code Institute student template
+
+* Ideas and knowledge from:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [css-tricks.com](https://css-tricks.com/)
+
+* Images from:
+
+    * [unsplash.com](https://www.w3schools.com)
+
+* Icons from:
+
+    * [iconfinder.com](https://www.iconfinder.com)
 
 
 
