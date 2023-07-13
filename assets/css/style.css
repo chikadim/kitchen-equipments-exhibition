@@ -616,4 +616,37 @@ button:focus {
 
 
 
+/* attendees starts here */
+
+.attendees-info-image {
+    background: url('../images/connected.png') no-repeat center center;
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#attendees-info {
+    background-color: #fff;
+}
+
+#attendees-info div{
+    color:#3e3e3e;
+}
+
+.contact-us-info-image {
+    background: url('../images/male-avatar.png') no-repeat center center;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+/* attendees ends here */
+
+
+
+
 
