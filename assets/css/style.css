@@ -537,8 +537,6 @@ header {
     padding: 60px 0;
 }
 
-
-
 label,
 input,
 textarea,
@@ -582,6 +580,38 @@ button:hover,
 button:focus {
     background-color: #1e1e1e;
 }
+
+/* contact us pages ends here */
+
+
+
+/* for exhibitors starts here */
+
+#for-icon {
+    background: url('../images/jug.png') no-repeat center center;
+    height: 48px;
+    width: 48px;
+    margin: 100px 0px 25px 0px;
+}
+
+.for-exhibitors-writeup {
+    padding: 0 50px 100px 50px;
+}
+
+.for-exhibitors-writeup h4{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.for-exhibitors-writeup h4{
+    font-size: 14px;
+}
+
+.for-exhibitors-inner {
+    display: flex;
+}
+
+/* for exhibitors ends here */
 
 
 
