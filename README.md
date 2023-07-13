@@ -2,6 +2,8 @@
 
 This website is a project that is built with love to provide its users easy access to registration, information and updates about the upcoming exhibition. Companies, technical experts and individuals can have the opportunity to start good business relationships, exhibit inovative technologies as well as share experiences and knowledge in the world of kitchen equipments and utensils.
 
+![Mockup](md_images/mockup-all-screen.png)
+
 ## [You can view the website live here on GitHub page](https://chikadim.github.io/kitchen-equipments-exhibition/)
 
 ## Table of Content
