@@ -15,7 +15,6 @@ This website is a project that is built with love to provide its users easy acce
     - [Wireframes](#wireframes)
     - [Mockup](#mockup)
 - [Features](#features)
-- [Technology](#technology)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
@@ -90,7 +89,7 @@ I used figma to create the wireframes of the website.
 - __Images__
   - I used images from [unsplash.com](www.unsplash.com) and i credited them in the [credits](#credits) section.
 
-![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockupwebversion.png)
+![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/mockup.png)
 
 [Back to table of content](#table-of-content)
 
@@ -144,6 +143,15 @@ This website consists of 4 pages. They are accessible from navigation menu and a
   - Enquiry form
     * Through this form a user can reach us to make enquiry or offer suggestions.
     ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/attendee-page.png)
+
+
+    ## Testing
+
+    ### Functionality testing
+    I used google chrome and mozilla for testing the responsiveness of the site throughout development stage.
+
+
+
   
 
 
