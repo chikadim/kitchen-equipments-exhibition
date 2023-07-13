@@ -157,7 +157,7 @@ This website consists of 4 pages. They are accessible from navigation menu and a
    - 2. Error found on index page while debugging on google chrome
    ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error.png)
 
-   - 2. Error fixed
+   - 2. Error fixedd
    ![Mockup web version](https://chikadim.github.io/kitchen-equipments-exhibition/md_images/chrome-error-fixed.png)
 
 
