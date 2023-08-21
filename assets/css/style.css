@@ -306,9 +306,6 @@ header {
 
 /* home page ends here */
 
-
-
-
 /* contact us pages starts here */
 
 #page-heading {
@@ -412,8 +409,6 @@ button:focus {
 
 /* contact us pages ends here */
 
-
-
 /* for exhibitors starts here */
 
 #for-icon {
@@ -442,9 +437,6 @@ button:focus {
 
 /* for exhibitors ends here */
 
-
-
-
 /* attendees starts here */
 
 .attendees-info-image {
@@ -470,11 +462,20 @@ button:focus {
     background-size: cover;
     border-radius: 50%;
 }
-
 /* attendees ends here */
 
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
 
-
+.thank-you p {
+    color: hsl(0, 0%, 20%);
+    margin-top: 10px;
+}
 
 /* Media Queries */
 @media screen and (max-width: 320px) {
@@ -637,9 +638,8 @@ button:focus {
 
 }
 
+
 /* media queries for max-width: 768px */
-
-
 @media screen and (max-width: 768px) {
     .attendees-section-style {
         display: flex;
