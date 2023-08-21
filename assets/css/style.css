@@ -151,7 +151,6 @@ header {
     padding: 20px 91.0469px;
     justify-content:space-between;
     color: white;
-    
 }
 
 #why-not {
@@ -331,25 +330,25 @@ header {
     border-radius: 50%;
 }
 
-#contact-us-info-inner {
+.contact-us-info-inner {
     display: flex;
     align-content: center;
     justify-content: space-between;
     padding: 100px 0;
 }
 
-#contact-us-info-inner div {
+.contact-us-info-inner div {
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
 
-#contact-us-info-inner div p { 
+.contact-us-info-inner div p { 
     font-family: 'Laila', sans-serif;
     font-size: 12px;
 }
 
-#contact-us-info-inner h4 {
+.contact-us-info-inner h4 {
     padding: 10px 0px 15px 0px;
 }
 
@@ -411,7 +410,7 @@ button:focus {
 
 /* for exhibitors starts here */
 
-#for-icon {
+.for-icon {
     background: url('../images/jug.png') no-repeat center center;
     height: 48px;
     width: 48px;
@@ -533,7 +532,6 @@ button:focus {
         background-color: #3e3e3e;
         padding: 20px 20px 100px 0%;
         top: 30%;
-        
     }
     
     #hero-text p {
@@ -542,18 +540,6 @@ button:focus {
         font-weight: 900;
         line-height: 20px;
         text-align: center;
-    }
-
-    #venue-date-time {
-        background-color:#3e3e3e;
-        display: flex;
-        padding: 5px 5px;
-        justify-content:space-between;
-    }
-
-    #venue-date-time div {
-        padding: 5px 5px;
-        font-size: 10px;
     }
     
     #why-not div {
@@ -614,6 +600,38 @@ button:focus {
         padding-bottom: 50px
         
     }
+}
+
+/* media queries for max-width: 768px */
+@media screen and (max-width: 768px) {
+    .attendees-section-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .attendees-section-style ul li {
+        font-size: 16px;
+    }
+
+    #expected-visitors h3 {
+        padding-top: 50px;
+    }
+
+    #venue-date-time {
+        background-color:#3e3e3e;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+        align-items: center;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #venue-date-time div:nth-child(2) {
+        padding: 20px 0 20px 0;
+    }
 
     .footer-inner {
         display: flex;
@@ -634,25 +652,6 @@ button:focus {
     
     #usermap li:nth-child(2){
         padding: 10px 0px;
-    }
-
-}
-
-
-/* media queries for max-width: 768px */
-@media screen and (max-width: 768px) {
-    .attendees-section-style {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .attendees-section-style ul li {
-        font-size: 16px;
-    }
-
-    #expected-visitors h3 {
-        padding-top: 50px;
     }
 }
 
