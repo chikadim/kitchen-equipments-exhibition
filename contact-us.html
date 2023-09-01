@@ -82,7 +82,7 @@
                 <form action="thank-you.html">
                     <div>
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <input pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please enter alphabets only.')" type="text" id="name" name="name" required>
                     </div>
 
                     <br>
@@ -96,7 +96,7 @@
 
                     <div>
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="10" cols="40"></textarea>
+                        <textarea name="message" id="message" rows="10" cols="40" required></textarea>
                     </div>
 
                     <button>Send</button>
