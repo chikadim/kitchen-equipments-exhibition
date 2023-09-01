@@ -618,7 +618,7 @@ button:focus {
         padding-top: 50px;
     }
 
-    #venue-date-time {
+    /*#venue-date-time {
         background-color:#3e3e3e;
         display: flex;
         justify-content: center;
@@ -652,6 +652,6 @@ button:focus {
     
     #usermap li:nth-child(2){
         padding: 10px 0px;
-    }
+    }*/
 }
 
