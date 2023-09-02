@@ -147,8 +147,12 @@ header {
 }
 
 #why-not div {
-    padding-top: 20px;
+    padding: 20px 30px;
     font-family: 'Laila', sans-serif;
+}
+
+.attendees-section #expected-exhibitors {
+    padding-bottom: 100px;
 }
 
 .attendees-section {
@@ -156,11 +160,15 @@ header {
     padding: 100px 91.0469px;
 }
 
+.attendees-section #sub-heading {
+    padding-bottom: 50px;
+}
+
 #sub-heading h3 {
     color: white;
     background-color:#3B9092;
     display: inline;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .attendees-section-style {
@@ -194,12 +202,20 @@ header {
     background-size: cover;
 }
 
-#expected-visitors {
-    margin: 200px 0;
-}
-
 #some-sponsors {
     background-color: #3e3e3e;
+    padding: 100px 91.0469px;
+}
+
+#some-sponsors #sponsors-sub-heading {
+    padding-bottom: 50px;
+}
+
+#sponsors-sub-heading h3 {
+    color: white;
+    background-color:#3B9092;
+    display: inline;
+    font-size: 20px;
 }
 
 .some-sponsors-image {
@@ -214,7 +230,6 @@ header {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 100px 0;
 }
 
 #some-sponsors-inner div {
@@ -231,14 +246,6 @@ header {
 #some-sponsors-inner h4 {
     padding: 10px 0px 15px 0px;
 }
-
-
-#sponsors-sub-heading h3 {
-    background-color: #3e3e3e;
-    color: #fff;
-    padding: 50px 0 0 50px;
-}
-
 
 .footer-inner {
     display: flex;
@@ -492,12 +499,6 @@ Media query starts here
 
 /* media queries for max-width: 768px */
 @media screen and (max-width: 768px) {
-    .attendees-section-style {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
     .attendees-section-style ul li {
         font-size: 16px;
     }
@@ -505,6 +506,7 @@ Media query starts here
     #expected-visitors h3 {
         padding-top: 50px;
     }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -601,26 +603,7 @@ Media query starts here
         padding: 20px 0 20px 0;
     }
 
-    .footer-inner {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        background-color: #1e1e1e;
-        padding: 50px 20px;
-    }
-
-    #usermap {
-        padding-bottom: 70px;
-    }
-    
-    #usermap li {
-        float: none;
-        text-align: center;
-    }
-    
-    #usermap li:nth-child(2){
-        padding: 10px 0px;
-    }
+   
     
     .attendees-section-style {
         display: flex;
