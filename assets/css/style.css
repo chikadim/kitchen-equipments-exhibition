@@ -16,7 +16,9 @@ body {
     font-weight: 300;
 }
 
-/* top bar starts */
+/*==================================
+Home page starts here 
+==================================*/
 
 #top-bar {
     background-color: #3e3e3e;
@@ -125,24 +127,8 @@ header {
     background-color: #3e3e3e;
     padding: 20px 5% 60px 5%;
     top: 30%;
-}
-
-#hero-text p {
-    margin-left: 30px;
-    color: #fff;
-    font-size: 150%;
-    font-weight: 900;
-    line-height: 32px;
-    letter-spacing: 3px;
-}
-
-#hero-text h4 {
-    margin-left: 30px;
-    color: #fff;
-    font-size: 150%;
-    font-weight: 900;
-    line-height: 32px;
-    letter-spacing: 3px;
+    font-size: 34px;
+    color: #f6f6f6
 }
 
 #venue-date-time {
@@ -157,7 +143,7 @@ header {
     text-align: center;
     padding: 100px 0;
     background-color: #f6f6f6;
-    border-top: 4px solid #48ff00;
+    border-top: 4px solid #3B9092;
 }
 
 #why-not div {
@@ -165,19 +151,21 @@ header {
     font-family: 'Laila', sans-serif;
 }
 
-#sub-heading {
-    background-color: #3e3e3e;
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 91.0469px;
-    padding-right: 100px;
+.attendees-section {
+    padding: 100px 91.0469px;
+}
+
+#sub-heading h3 {
     color: white;
+    display: inline;
+    font-size:20px;
 }
 
 .attendees-section-style {
     display: flex;
-    justify-content: space-between;
-    padding: 100px 91.0469px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .attendees-section-style h3 {
@@ -207,8 +195,6 @@ header {
 #expected-visitors {
     margin: 200px 0;
 }
-
-/* some sponsors section start */
 
 #some-sponsors {
     background-color: #3e3e3e;
@@ -244,7 +230,6 @@ header {
     padding: 10px 0px 15px 0px;
 }
 
-/* some sponsors section start */
 
 #sponsors-sub-heading h3 {
     background-color: #3e3e3e;
@@ -303,9 +288,13 @@ header {
     margin: 0 29px;
 }
 
-/* home page ends here */
+/*==================================
+Home page ends here 
+==================================*/
 
-/* contact us pages starts here */
+/*==================================
+Contact us page starts here 
+==================================*/
 
 #page-heading {
     clear: left;
@@ -406,9 +395,13 @@ button:focus {
     background-color: #1e1e1e;
 }
 
-/* contact us pages ends here */
+/*==================================
+Contact us page ends here 
+==================================*/
 
-/* for exhibitors starts here */
+/*==================================
+For exhibitors page starts here 
+==================================*/
 
 .for-icon {
     background: url('../images/jug.png') no-repeat center center;
@@ -434,9 +427,13 @@ button:focus {
     display: flex;
 }
 
-/* for exhibitors ends here */
+/*==================================
+For exhibitors page ends here 
+==================================*/
 
-/* attendees starts here */
+/*==================================
+Attendees page starts here 
+==================================*/
 
 .attendees-info-image {
     background: url('../images/connected.png') no-repeat center center;
@@ -461,7 +458,14 @@ button:focus {
     background-size: cover;
     border-radius: 50%;
 }
-/* attendees ends here */
+
+/*==================================
+Attendees page ends here 
+==================================*/
+
+/*==================================
+Thank you page starts here 
+==================================*/
 
 .thank-you {
     display: flex;
@@ -476,8 +480,32 @@ button:focus {
     margin-top: 10px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 320px) {
+/*==================================
+Thank you page ends here 
+==================================*/
+
+/*==================================
+Media query starts here
+==================================*/
+
+/* media queries for max-width: 768px */
+@media screen and (max-width: 768px) {
+    .attendees-section-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .attendees-section-style ul li {
+        font-size: 16px;
+    }
+
+    #expected-visitors h3 {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     #top-bar {
         display: block;
     }
@@ -555,6 +583,42 @@ button:focus {
     #sub-heading h3{
         font-size: 16px;
     }
+
+    #venue-date-time {
+        background-color:#3e3e3e;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+        align-items: center;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #venue-date-time div:nth-child(2) {
+        padding: 20px 0 20px 0;
+    }
+
+    .footer-inner {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background-color: #1e1e1e;
+        padding: 50px 20px;
+    }
+
+    #usermap {
+        padding-bottom: 70px;
+    }
+    
+    #usermap li {
+        float: none;
+        text-align: center;
+    }
+    
+    #usermap li:nth-child(2){
+        padding: 10px 0px;
+    }
     
     .attendees-section-style {
         display: flex;
@@ -602,56 +666,7 @@ button:focus {
     }
 }
 
-/* media queries for max-width: 768px */
-@media screen and (max-width: 768px) {
-    .attendees-section-style {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .attendees-section-style ul li {
-        font-size: 16px;
-    }
-
-    #expected-visitors h3 {
-        padding-top: 50px;
-    }
-
-    /*#venue-date-time {
-        background-color:#3e3e3e;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 20px 0px;
-        align-items: center;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    #venue-date-time div:nth-child(2) {
-        padding: 20px 0 20px 0;
-    }
-
-    .footer-inner {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        background-color: #1e1e1e;
-        padding: 50px 20px;
-    }
-
-    #usermap {
-        padding-bottom: 70px;
-    }
-    
-    #usermap li {
-        float: none;
-        text-align: center;
-    }
-    
-    #usermap li:nth-child(2){
-        padding: 10px 0px;
-    }*/
-}
+/*==================================
+Media query ends here 
+==================================*/
 
