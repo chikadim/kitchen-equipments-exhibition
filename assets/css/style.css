@@ -152,11 +152,13 @@ header {
 }
 
 .attendees-section {
+    background-color: #E3F4F4;
     padding: 100px 91.0469px;
 }
 
 #sub-heading h3 {
     color: white;
+    background-color:#3B9092;
     display: inline;
     font-size:20px;
 }
