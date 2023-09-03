@@ -577,17 +577,28 @@ Media query starts here
     
     #hero-text {
         position: absolute;
-        background-color: #3e3e3e;
-        padding: 20px 20px 100px 0%;
+        background-color: transparent;
+        padding: 0px 0px 0px 0%;
         top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+
+    #hero-text h4 {
+        background-color: #3e3e3e;
+        margin-bottom: 40px;
+        padding: 20px;
     }
     
     #hero-text p {
+        background-color: #3e3e3e;
         color: #fff;
-        font-size: 120%;
+        font-size: 60%;
         font-weight: 900;
         line-height: 20px;
         text-align: center;
+        padding: 5px;
     }
     
     #why-not div {
