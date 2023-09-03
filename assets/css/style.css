@@ -167,8 +167,8 @@ header {
 }
 
 #sub-heading h3 {
-    color: white;
-    background-color:#3B9092;
+    color:#1e1e1e;
+    background-color: #f6f6f6;
     display: inline;
     font-size: 20px;
 }
@@ -214,8 +214,8 @@ header {
 }
 
 #sponsors-sub-heading h3 {
-    color: white;
-    background-color:#3B9092;
+    color: #3e3e3e;
+    background-color:#f6f6f6;
     display: inline;
     font-size: 20px;
 }
