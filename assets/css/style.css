@@ -321,6 +321,15 @@ footer {
     margin: 0 29px;
 }
 
+.copy-right {
+    background-color: #f6f6f6;
+    color: #3e3e3e;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
 /*==================================
 Home page ends here 
 ==================================*/
@@ -532,7 +541,7 @@ Media query starts here
 /* media queries for max-width: 768px */
 @media screen and (max-width: 768px) {
     body {
-        padding-bottom: 56.74rem;
+        padding-bottom: 26.74rem;
     }
     
     .attendees-section-style ul li {
@@ -546,6 +555,10 @@ Media query starts here
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        padding-bottom: 32.74rem;
+    }
+
     #menu {
         display: none;
     }
