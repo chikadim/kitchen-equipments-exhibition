@@ -292,8 +292,12 @@ header {
 }
 
 #social-media-logos i {
-    font-size: 18px;
+    font-size: 28px;
     padding: 10px;
+}
+
+#social-media-logos a:hover {
+    color:#bcbcbc;
 }
 
 #social-media-logos :nth-child(2) {
