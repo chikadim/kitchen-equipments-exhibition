@@ -457,6 +457,7 @@ Attendees page starts here
 
 #attendees-info {
     background-color: #fff;
+    padding: 0 10px;
 }
 
 #attendees-info div{
@@ -610,6 +611,7 @@ Media query starts here
     #sub-heading {
         margin-left: 0px;
         padding-right: 20px;
+        text-align: center;
     }
 
     #sub-heading h3{
@@ -666,6 +668,10 @@ Media query starts here
     #some-sponsors {
         background-color: #3e3e3e;
         padding: 100px 20px;
+    }
+
+    #sponsors-sub-heading {
+        text-align: center;
     }
     
     #some-sponsors-inner {
