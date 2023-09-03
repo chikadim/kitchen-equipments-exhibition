@@ -467,6 +467,7 @@ Attendees page starts here
     background: url('../images/male-avatar.png') no-repeat center center;
     height: 60px;
     width: 60px;
+
     background-size: cover;
     border-radius: 50%;
 }
@@ -630,38 +631,47 @@ Media query starts here
         padding: 20px 0 20px 0;
     }
 
-   
+    .attendees-section {
+        background-color: #E3F4F4;
+        padding: 100px 20px;
+    }
     
     .attendees-section-style {
-        display: flex;
         flex-direction: column;
-        padding: 40px 30px;
-    }
-    
-    .attendees-section-style h3 {
-        margin-bottom: 10px;
-    }
-    
-    .attendees-section-style ul li {
-        font-size: 14px;
-    }
-    
-    #expected-exhibitors-image {
-        height: 200px;
-        width: 200px;
-        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        gap: 0;
     }
 
-    #expected-visitors-image {
-        height: 200px;
-        width: 200px;
+    #expected-visitors div:nth-child(2){
+        order: -1;
+    }
+
+
+    
+    #expected-exhibitors-image {
+        height: 300px;
+        width: 300px;
         margin-top: 20px;
     }
 
     #expected-visitors {
-        margin: 200px 0;
+        margin: 50px 0;
     }
 
+
+    #expected-visitors-image {
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+
+
+
+
+
+    
     #some-sponsors {
         background-color: #3e3e3e;
     }
