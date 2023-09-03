@@ -599,7 +599,7 @@ Media query starts here
         font-weight: 900;
         line-height: 20px;
         text-align: center;
-        padding: 5px;
+        padding: 8px;
     }
     
     #why-not div {
@@ -647,8 +647,6 @@ Media query starts here
         order: -1;
     }
 
-
-    
     #expected-exhibitors-image {
         height: 300px;
         width: 300px;
@@ -659,21 +657,15 @@ Media query starts here
         margin: 50px 0;
     }
 
-
     #expected-visitors-image {
         height: 300px;
         width: 300px;
         margin-top: 20px;
     }
-    
 
-
-
-
-
-    
     #some-sponsors {
         background-color: #3e3e3e;
+        padding: 100px 20px;
     }
     
     #some-sponsors-inner {
@@ -683,8 +675,30 @@ Media query starts here
     }
 
     #some-sponsors-inner div{
-        padding-bottom: 50px
-        
+        padding-bottom: 50px;
+    }
+
+    .footer-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 100px;
+        padding: 100px 0px;
+    }
+
+    #usermap ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    #usermap li {
+        float: none;
+        list-style-type: none;
+    }
+    
+    #usermap li:nth-child(2){
+        padding: 0px;
     }
 }
 
