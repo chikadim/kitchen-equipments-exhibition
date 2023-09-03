@@ -20,10 +20,21 @@ body {
 Home page starts here 
 ==================================*/
 
+header {
+    width: 100%;
+}
+
+.top-bar-container {
+    display: none;
+}
+
 #top-bar {
     background-color: #3e3e3e;
-    padding-left: 27.5%;
-    display: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 #top-bar a {
@@ -35,16 +46,11 @@ Home page starts here
     list-style-type: none;
     font-size: 12px;
     line-height: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 10px 0;
 }
 
-#top-bar-home {
-    float: left;
-}
-
-#top-bar-attendee {
-    padding-left: 40%;
+#top-bar li:hover {
+    font-weight: 400;
 }
 
 #logo {
@@ -53,7 +59,7 @@ Home page starts here
     color: #3e3e3e;
 }
 
-#logo:hover {
+#logo h1:hover {
     color:#48ff00;
 }
 
@@ -63,10 +69,6 @@ Home page starts here
 
 #call-to-action li {
     float: left;
-}
-
-header {
-    width: 100%;
 }
 
 #menu {
@@ -147,7 +149,7 @@ header {
 }
 
 #why-not div {
-    padding: 20px 30px;
+    padding: 20px;
     font-family: 'Laila', sans-serif;
 }
 
@@ -250,6 +252,7 @@ header {
 .footer-inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
     background-color: #1e1e1e;
     padding: 100px 88.8594px;
@@ -263,7 +266,7 @@ header {
 }
 
 #usermap a:hover {
-    color: #828282;
+    font-weight: bold;
     border-bottom: 1px solid #48ff00;
 }
 
@@ -510,45 +513,58 @@ Media query starts here
 }
 
 @media screen and (max-width: 767px) {
-    #top-bar {
+    #menu {
+        display: none;
+    }
+
+    .top-bar-container {
         display: block;
     }
 
     #logo {
         float: none;
-        position: absolute;
-        top: 11%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 70px 0px 0 0%;
-        z-index: 1;
+        padding: 0;
+        color: #3e3e3e;
+        text-align: center;
     }
 
     #logo h1 {
         text-align: center;
         font-size: 50px;
-    }
-
-    #menu {
-        display: none;
+        display: inline-block;
     }
 
     #call-to-action {
-        line-height: 75px;
-        position: absolute;
-        top: 280px;
-        z-index: 1;
-        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-left: 0;
+        padding: 0 5px 30px;
     }
-
+    
     #call-to-action li {
+        float: none;
+        list-style-type: none;
+        border: 1px solid #3e3e3e;
+        width: 120px;
+        text-align: center;
         padding: 0 0px;
+        line-height: 30px;
     }
 
+    #call-to-action li:hover{
+        background-color: #3e3e3e;
+    }
+    
     #call-to-action li a {
-        border: 1px solid #fff;
-        padding: 6px 30px;
+        border: none;
+        padding: 6px 20px;
         font-size: 12px;
+    }
+    
+    #call-to-action li a:hover {
+        background-color: transparent;
+        color: #fff;
     }
 
     #hero-outer {
