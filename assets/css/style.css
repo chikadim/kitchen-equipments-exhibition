@@ -587,9 +587,10 @@ Media query starts here
         text-align: center;
     }
 
-    #hero-text h4 {
+    #hero-text h2 {
         background-color: #3e3e3e;
         margin-bottom: 40px;
+        font-size: 36px;
         padding: 20px;
     }
     
