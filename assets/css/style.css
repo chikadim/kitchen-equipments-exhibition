@@ -541,7 +541,7 @@ Media query starts here
 /* media queries for max-width: 768px */
 @media screen and (max-width: 768px) {
     body {
-        padding-bottom: 24rem;
+        padding-bottom: 25rem;
     }
     
     .attendees-section-style ul li {
@@ -555,7 +555,9 @@ Media query starts here
 }
 
 @media screen and (max-width: 767px) {
-    
+    body {
+        padding-bottom: 31rem;
+    }
 
     #menu {
         display: none;
