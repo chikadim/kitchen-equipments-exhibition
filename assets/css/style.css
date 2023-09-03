@@ -12,8 +12,18 @@
 }
 
 body {
+    position: relative;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    margin: 0;
+    box-sizing: inherit;
+    min-height: 100%;
+    padding-bottom: 22.3rem;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
 }
 
 /*==================================
@@ -247,6 +257,13 @@ header {
 
 #some-sponsors-inner h4 {
     padding: 10px 0px 15px 0px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .footer-inner {
