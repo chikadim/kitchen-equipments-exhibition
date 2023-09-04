@@ -71,7 +71,7 @@ header {
 }
 
 #logo h1:hover {
-    color:#48ff00;
+    color:#3B9092;
 }
 
 #call-to-action {
@@ -97,7 +97,7 @@ header {
 
 #menu li a:hover {
     color:#828282;
-    border-bottom : 1px solid #48ff00;
+    border-bottom : 1px solid #3B9092;
 }
 
 #logo, #call-to-action, #menu{
@@ -285,7 +285,7 @@ footer {
 
 #usermap a:hover {
     font-weight: bold;
-    border-bottom: 1px solid #48ff00;
+    border-bottom: 1px solid #3B9092;
 }
 
 #usermap li:nth-child(2){
@@ -301,7 +301,7 @@ footer {
 }
 
 #social-media-links div:first-child:hover {
-    color:#48ff00;
+    color:#3B9092;
     
 }
 
