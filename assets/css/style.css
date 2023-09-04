@@ -131,7 +131,7 @@ header {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.avif') no-repeat center center;
     background-size: cover;
 }
 
@@ -202,14 +202,14 @@ header {
 }
 
 #expected-exhibitors-image {
-    background: url('../images/attendees-section-image-one.jpg') no-repeat center center;
+    background: url('../images/attendees-section-image-one.avif') no-repeat center center;
     height: 400px;
     width: 400px;
     background-size: cover;
 }
 
 #expected-visitors-image {
-    background: url('../images/attendees-section-image-two.jpg') no-repeat center center;
+    background: url('../images/attendees-section-image-two.avif') no-repeat center center;
     height: 400px;
     width: 400px;
     background-size: cover;
@@ -232,7 +232,7 @@ header {
 }
 
 .some-sponsors-image {
-    background: url('../images/kettle.jpg') no-repeat center center;
+    background: url('../images/kettle.avif') no-repeat center center;
     height: 60px;
     width: 60px;
     background-size: cover;
