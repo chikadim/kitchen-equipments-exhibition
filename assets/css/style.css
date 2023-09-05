@@ -391,6 +391,9 @@ Contact us page starts here
     padding: 10px 0px 15px 0px;
 }
 
+#form-section {
+    padding-bottom: 50px;
+}
 
 #form-section h4{
     text-align: center;
@@ -559,6 +562,14 @@ Media query starts here
         font-size: 16px;
     }
 
+    .for-exhibitors-inner {
+        display: block;
+    }
+
+    .for-exhibitors-writeup {
+        padding: 0 50px 20px 20px;
+    }
+
     #expected-visitors h3 {
         padding-top: 50px;
     }
@@ -725,6 +736,7 @@ Media query starts here
         width: 300px;
         margin-top: 20px;
     }
+
 
     #some-sponsors {
         background-color: #3e3e3e;
