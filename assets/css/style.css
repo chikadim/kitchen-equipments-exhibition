@@ -757,6 +757,21 @@ Media query starts here
         padding-bottom: 50px;
     }
 
+
+
+
+    .contact-us-info-inner {
+        display: block;
+        padding: 100px 0;
+    }
+    
+    .contact-us-info-inner div:nth-child(2) {
+        padding: 60px 0;
+    }
+
+
+
+
     .footer-inner {
         display: flex;
         flex-direction: column;
@@ -769,6 +784,7 @@ Media query starts here
     #usermap ul {
         display: flex;
         gap: 20px;
+        padding: 0px 10px;
     }
 
     #usermap li {
