@@ -349,9 +349,6 @@ Contact us page starts here
 #page-heading {
     clear: left;
     background-color: #f6f6f6;
-}
-
-#page-heading {
     color: #1e1e1e;
     padding: 50px 0 10px 7%;
     font-weight: 600;
@@ -387,21 +384,21 @@ Contact us page starts here
     font-size: 12px;
 }
 
-.contact-us-info-inner h4 {
+.contact-us-info-inner h3 {
     padding: 10px 0px 15px 0px;
 }
 
 #form-section {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
-#form-section h4{
+#form-section h3{
     text-align: center;
-    padding: 50px 0 0 0;
+    margin: 80px 0 10px 0;
 }
                        
 .wrapper {
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 label,
@@ -467,13 +464,9 @@ For exhibitors page starts here
     padding: 0 50px 100px 50px;
 }
 
-.for-exhibitors-writeup h4{
+.for-exhibitors-writeup h3{
     padding-bottom: 5px;
-    font-size: 14px;
-}
-
-.for-exhibitors-writeup h4{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .for-exhibitors-inner {
@@ -524,7 +517,7 @@ Attendees page starts here
     font-size: 12px;
 }
 
-.attendees-info-inner h4 {
+.attendees-info-inner h3 {
     padding: 10px 0px 15px 0px;
 }
 
