@@ -43,7 +43,7 @@ This website is a project that is built with love to provide its users easy acce
 ### User stories
 
 - __User stories as a business owner__
-  - I would like to register on the website as an exhibitor to showcase our product to the world.
+  - I would like to register on the website as an exhibitor to showcase our products to the world.
   - I am hoping to build business relationships with other Companies who manufacture and supply Kitchen equipments. 
   - My expertise and knowledge in this field will be offered to our old and new customers to make good decisions when dealing with Kitchen Equipments.
 
